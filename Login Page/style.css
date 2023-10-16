@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    }
+    /* navbra start */
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        border-bottom: 1px solid rgb(220, 217, 217);
+    }
+    .navv{
+        margin-top: 0px;
+        display: flex;
+        height: 100%;
+    }
+    .img img{
+        width: 100%;
+    }
+    
+    .img{
+        width: 20%;
+        padding-right: 20px;
+    }
+    .mail{
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 2px solid gray;
+        border-left: 1px solid gray;
+    }
+    .mail a{
+        text-decoration: none;
+        color: black;
+        font-size: 80%;
+        font-weight: lighter;
+       
+    }
+    .short{
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        padding-left: 10px;
+        padding-right: 10px;
+    
+    }
+    .short a{
+        text-decoration: none;
+        color: black;
+        font-size: 80%;
+        font-weight: lighter;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .list {
+        width: 100%;
+        padding-right: 84%;
+        padding-top: 15px;
+    }
+    .list ul
+    {
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    .list ul li{
+        display: inline-flex;
+        margin-left: 15%;
+        
+        
+    }
+    .four{
+        background-color: rgb(86, 84, 84);
+        color: white;
+        height: 15px;
+        width: 15px;
+        margin-top: -35%;
+        font-size: 12px;
+        padding-left: 3px;
+        border-radius: 5px;
+    }
+    .navbar2{
+        width: 80%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .dropdown{
+        font-weight: bold;
+        display: inline;
+    }
+    .dropdown-menu{
+        background-color: rgb(67, 80, 116);
+    }
+    .dropdown-item{
+        color: white;
+    }
+    .drop{
+        display: flex;
+        text-decoration: none;
+        font-size: 80%;
+        padding-left: 10%;
+    }
+    /* navbar end */
+    .register{
+        font-weight: bold;
+    }
+    .top{
+        width: 40%;
+        color: #666666;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8%;
+    }
+    .form-check{
+        color: #666666;
+    }
+    .form{
+        width: 40%;
+        margin: auto;
+        margin-top: 2%;
+    }
+    /* footer css start */
+    .foot{
+        background-color: rgb(226, 223, 223);
+     }
+     .footer-container{
+        width: 85%;
+     }
+     .footer-logo{
+        display: flex;
+        justify-content: center;
+        padding: 3%;
+     }
+     .link-list ul{
+        list-style-type: none;
+        margin-left: -30px;
+        height:100%;
+     }
+     .link-list ul a{
+        text-decoration: none;
+        color: gray;
+        font-weight: lighter;
+        margin-top: 50px;
+        /* padding: 2%; */
+        
+     }
+     .footer-form{
+        display: flex;
+        justify-content: space-between;
+    
+     }
+     .email-footer{
+        width: 65%;
+        background-color: rgb(226, 223, 223);
+        border: none;
+     }
+     .sub-btn{
+        
+        display: flex;
+        width: 40%;
+        height: 30px;
+        border-radius: 3px;
+        color: white;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(116, 112, 112);
+     }
+     .sub-btn:hover{
+        background-color: rgb(101, 99, 99);
+        color: white;
+     }
+     .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 4%;
+        padding-bottom: 5%;
+        margin-bottom: 10%;
+    
+     }
+     .btm-fotr-cntnt a {
+        text-decoration: none;
+        color: rgb(66, 63, 63);
+     }
+     .all-icons ul{
+        list-style-type: none;
+     }
+     .all-icons ul li a{
+        text-decoration: none;
+        color:rgb(66, 63, 63) ;
+        margin-left: 10px;
+     }
+    
+     .ft-head{
+        font-weight: bold;
+    }
+    .ft-hea{
+    font-weight: bold;
+    font-size: 19px;
+    }
+    /* footer css end */

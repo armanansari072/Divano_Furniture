@@ -1,0 +1,353 @@
+body{
+margin: 0;
+padding: 0;
+font-family: 'Poppins';
+background-color: #666666;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgb(220, 217, 217);
+}
+.navv{
+    margin-top: 0px;
+    display: flex;
+    height: 100%;
+}
+.img img{
+    width: 100%;
+}
+
+.img{
+    width: 20%;
+    padding-right: 20px;
+}
+.mail{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px solid gray;
+    border-left: 1px solid gray;
+}
+.mail a{
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    font-weight: lighter;
+   
+}
+.short{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.short a{
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    font-weight: lighter;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list {
+    width: 100%;
+    padding-right: 84%;
+    padding-top: 15px;
+}
+.list ul
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.list ul li{
+    display: inline-flex;
+    margin-left: 15%;
+    
+    
+}
+.four{
+    background-color: rgb(86, 84, 84);
+    color: white;
+    height: 15px;
+    width: 15px;
+    margin-top: -35%;
+    font-size: 12px;
+    padding-left: 3px;
+    border-radius: 5px;
+}
+.navbar2{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.dropdown{
+    font-weight: bold;
+    display: inline;
+}
+.dropdown-menu{
+    background-color: rgb(67, 80, 116);
+}
+.dropdown-item{
+    color: white;
+}
+.drop{
+    display: flex;
+    text-decoration: none;
+    font-size: 80%;
+    padding-left: 10%;
+}
+/* navbar end */
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.256);
+    width: 95%;
+    padding: 10%;
+    margin: auto;
+    margin-top: 1%;
+}
+.sry-para{
+    padding: 1%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.err-para{
+    font-size: 75%;
+    color: #2b2b2b;
+}
+.div-bdy-container{
+   width: 60%;
+   margin: auto;
+   position: relative;
+   justify-content: center;
+   background-color: white;
+   top: -70px;
+
+}
+.bdy-content{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 80px;
+    
+}
+.phone{
+    font-size: 50px;
+    position: relative;
+    
+}
+.bdy-heading{
+    color: #666666;
+    padding-top: 10%;
+    font-weight: 600;
+}
+.bdy-content p{
+    display: relative;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-top: 2%;
+}
+.btn-width{
+    width: 16%;
+    margin: auto;
+    background-color: rgb(30, 30, 80);
+    border: none;
+    border-radius: 3px;
+}
+.contact-form{
+  margin-top: 15%;
+}
+.frm-email{
+    font-weight: bold;
+    color: #666666;
+}
+.frm-para{
+    color: #666666;
+    font-family: sans-serif;
+}
+/* green content start */
+.background{
+    background: url("http://www.elathemes.com/themes/divano/assets/images/gallery-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    height: 32rem;
+    width: 92%;
+    margin: auto;
+    /* width: 100%; */
+}
+.c-body{
+    margin-top: 10%;
+    margin-left: 10%;
+    top: 40px;
+    padding-top: 15%;
+}
+.form{
+    display: flex;
+    width: 100%;
+}
+.subss{
+    margin-left: 2.5%;
+    height: 96%;
+    border-radius: 3px;
+}
+.c-body{
+    margin-top: 10%;
+    margin-left: 10%;
+    top: 40px;
+    padding-top: 15%;
+}
+
+.c-title{
+    color: white;
+    font-weight: bolder;
+}
+.c-para{
+    color: white;
+    padding-top: 1%;
+}
+/* green content end */
+/* gifts start */
+.gifts{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    /* margin-bottom: 10%; */
+ }
+.icon-sec{
+    font-size:3rem;
+ }
+.get{
+    font-size: 95%;
+    font-weight: bold;
+    color: rgb(155, 153, 153);
+    padding-top: 10px;
+}
+.new{
+    font-size: 78%;
+    color: rgb(146, 145, 145);
+
+ }
+ 
+
+/* footer css start */
+.foot{
+    background-color: rgb(226, 223, 223);
+}
+.footer-container{
+     margin-top: 10%;
+    width: 85%;
+ }
+ .footer-logo{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+ }
+ .link-list ul{
+    list-style-type: none;
+    margin-left: -30px;
+    height:100%;
+ }
+ .link-list ul a{
+    text-decoration: none;
+    color: gray;
+    font-weight: lighter;
+    margin-top: 50px;
+    /* padding: 2%; */
+    
+ }
+
+ .footer-form{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .email-footer{
+    width: 65%;
+    background-color: rgb(226, 223, 223);
+    border: none;
+ }
+ .sub-btn{
+    
+    display: flex;
+    width: 40%;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(116, 112, 112);
+ }
+ .sub-btn:hover{
+    background-color: rgb(101, 99, 99);
+    color: white;
+ }
+ .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+
+ }
+ .btm-fotr-cntnt a {
+    text-decoration: none;
+    color: rgb(66, 63, 63);
+ }
+ .all-icons ul{
+    list-style-type: none;
+ }
+ .all-icons ul li a{
+    text-decoration: none;
+    color:rgb(66, 63, 63) ;
+    margin-left: 10px;
+ }
+
+ .ft-head{
+    font-weight: bold;
+}
+.ft-hea{
+font-weight: bold;
+font-size: 19px;
+}
+@media (max-width:450px){
+    .div-bdy-container{
+        width: 60%;
+        margin: auto;
+        position: relative;
+        justify-content: center;
+        background-color: white;
+        top: -40px;
+     
+     }
+     
+     .contact-form{
+        margin-top: 35%;
+      }
+      .btn-width{
+        width: 56%;
+        margin: auto;
+        background-color: rgb(30, 30, 80);
+        border: none;
+        border-radius: 3px;
+    }
+}
+
+  
+/* footer css end */
