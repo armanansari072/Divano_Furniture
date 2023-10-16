@@ -21,6 +21,9 @@ body {
 .img img{
     width: 100%;
 }
+.info-btn{
+    width: 40%;
+}
 
 .img{
     width: 20%;
@@ -71,6 +74,8 @@ body {
 .list ul li{
     display: inline-flex;
     margin-left: 15%;  
+    color: black;
+    text-decoration: none;
 }
 .four{
     background-color: rgb(86, 84, 84);
@@ -82,27 +87,40 @@ body {
     padding-left: 3px;
     border-radius: 5px;
 }
-.navbar2{
-    width: 80%;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-}
-.dropdown{
-    font-weight: bold;
-    display: inline;
-}
-.dropdown-menu{
-    background-color: rgb(67, 80, 116);
-}
-.dropdown-item{
-    color: white;
-}
+
 .drop{
     display: flex;
     text-decoration: none;
     font-size: 80%;
     padding-left: 10%;
+}
+.btn-class
+{
+    color: white;
+    font-size: 40px;
+}
+/* new-nav */
+.navbar-links{
+    margin-top: 16px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: rgb(108, 106, 106);
+    display: inline;
+}
+
+.nav-links ul li{
+    display: inline;
+    margin-left: 30px;
+    font-size: 18px;
+    border-right: 1px solid rgb(86, 83, 83);
+    border-left: 1px solid rgb(86, 83, 83);
+    font-weight: bold;
+    padding: 0px 2px;
+}
+.nav-links ul li a:hover{
+    color: red;
+    transition-duration: 0.5s;
 }
 /* nav-end */
 .img1
@@ -130,6 +148,7 @@ body {
 }
 .slide-heading{
     padding: 1%;
+    font-size: 900px;
 }
 .slide-heading p{
     font-size: 2.2rem;
@@ -138,6 +157,11 @@ body {
     /* width:100% */
 .slide-para{
     /* padding-top: 2%; */
+}
+.slide-heading2{
+    margin-top :-20px;
+    font-weight:bold;
+
 }
 .slide-buttons{
     width: 100%;
@@ -157,7 +181,22 @@ body {
 
 }
 
-
+.container-first{
+    display: flex;
+}
+.first{
+    display: flex;
+    color: black;
+}
+.first ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+button{
+   border: none;
+   background-color: none;
+}
 
 
 
@@ -337,6 +376,8 @@ body {
     justify-content: center;
 
 }
+.scnd-para{
+    padding-top: 10%;}
 .card-title2{
     font-weight: bold;
     font-size: 1.5rem;
@@ -507,6 +548,13 @@ del{
    
     
 }
+.slide-heading2{
+    font-size:95%;
+    padding-top:2%;
+}
+.btn-get-first-discount{
+    width: 25%;
+}
 .image-contain img:hover 
 {
     scale: 110%;
@@ -543,6 +591,14 @@ del{
     font-size: 78%;
     color: rgb(146, 145, 145);
 
+ }
+ .scnd-head{
+    font-size: 150px;
+    font-weight: bold;
+ }
+ .slide-heading{
+    font-weight:bold;
+    font-size: 30px;
  }
  /* footer css */
  .foot{
@@ -616,6 +672,11 @@ del{
     color:rgb(66, 63, 63) ;
     margin-left: 10px;
  }
+ button ul li{
+    display: inline;
+    color: black;
+
+ }
 
  .ft-head{
     font-weight: bold;
@@ -636,8 +697,6 @@ font-size: 19px;
 }
 @media (min-width:350px) and (max-width:700px) {
     .slide-text h3,.slide-text h2{
-        /* top: 60%; */
-        /* margin-top: px; */
         display: none;
     }
     .slide-text button{
@@ -657,8 +716,24 @@ font-size: 19px;
     .btn-disc{
         width: 20%;
     }
+    .third-head{
+        display: none;
+    }
+    .scnd-para{
+        text-align: center;
+        margin: auto;
+    }
 }
 @media (max-width:769px){
+    .nav-links ul li {
+        display: inline;
+        margin-left: 2px;
+        font-size: 13px;
+        border-right: 1px solid rgb(86, 83, 83);
+        border-left: 1px solid rgb(86, 83, 83);
+        font-weight: bold;
+        padding: 0px 2px;
+    }
     .r-card{
         flex-direction: column;
         gap: 20px;
@@ -676,7 +751,28 @@ font-size: 19px;
         width: 30%;
         /* font-size: 80px; */
     }
-    
+    .btn-discounts{
+        width: 25%;
+    }
+    .btn-get-first-discount{
+        width: 43%;
+    }
+    .slide-text{
+        top:9%
+    }
+    .scnd-head{
+        font-size: 70px;
+        margin-top: -20px;
+    }
+    .slide-heading{
+        font-size: 40px;
+    }
+    .slide-heading2{
+        padding-top: 20px;
+    }
+    .scnd-para{
+        padding-top: 2%;
+    }
 }
 
 @media (max-width:426px){
@@ -692,6 +788,31 @@ font-size: 19px;
     .btn-disc{
         width: 50%;
     }
+    .btn-discounts{
+        font-size: 12px;
+    }
+    .slide-heading{
+        font-size: 27px;
+    }
+    .scnd-head{
+        font-size: 40px;
+    }
+    .info-btn{
+        width: 72%;
+    }
+    .fth-para{
+        display: none;
+    }
+    .nav-links ul li {
+        display: inline;
+        margin-left: 4px;
+        font-size: 14px;
+        border-right: 1px solid rgb(86, 83, 83);
+        border-left: 1px solid rgb(86, 83, 83);
+        font-weight: bold;
+        padding: 0px 2px;
+    }
+    
 }
 @media (max-width:376px){
     .navv{
