@@ -220,6 +220,87 @@ body {
     font-family:"Open Sans", sans-serif;
     color:#111111 ;
 }
+.img-cnt{
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+.bdy-btm{
+    display: flex;
+    background-color: white;
+    border-radius:0 0 10px 10px;
+}
+.date{
+    display: flex;
+    border-right: 1px solid #cecaca;
+    font-size: 70%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-top: 3%; 
+}
+
+.btm-para{
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-weight: bold;
+}
+.blog-caregories{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+.blog-caregories ul li a{
+    text-decoration: none;
+    color: #3e3d3d;
+}
+.blog-caregories ul li{
+    border-bottom: 1px solid rgb(223, 220, 220);
+    margin-top: 5%;
+}
+.right-blog{
+    padding-top: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.posts{
+    display: flex;
+    border-bottom: 1px solid rgb(223, 220, 220);
+    justify-content: center;
+    align-items: center;
+}
+.all-posts{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.post-discription{
+    padding-left: 22px;
+    font-size: 100%;
+}
+.post-table{
+    margin-top: 12%;
+    background-color: white;
+    padding: 30px 15px 20px 25px;
+    border-radius: 10px;
+}
+.all-btns{
+    font-size: 80%;
+    margin-top: 3px;
+    padding: 8px;
+}
+.table-title{
+    font-weight: bold;
+}
+.pg-num{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    padding-bottom: 8%;
+    gap: 5px;
+}
 
 
 
